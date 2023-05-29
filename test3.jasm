@@ -1,0 +1,36 @@
+class test3
+{
+field static int a
+field static int b = 20
+method public static int func(int, int)
+max_stack 15
+max_locals 15
+{
+iload 0
+iload 1
+imul
+ireturn
+}
+method public static int func2(int, int)
+max_stack 15
+max_locals 15
+{
+iload 0
+iload 1
+invokestatic int test3.func(int, int)
+ireturn
+}
+method public static void main(java.lang.String[])
+max_stack 15
+max_locals 15
+{
+sipush 50
+getstatic int test3.b
+invokestatic int test3.func2(int, int)
+putstatic int test3.a
+getstatic java.io.PrintStream java.lang.System.out
+getstatic int test3.a
+invokevirtual void java.io.PrintStream.println(int)
+return
+}
+}
