@@ -61,6 +61,6 @@ make clean
 
 ## Evaluation
 
-- Assignment_1 Lexical analysis got 100
-- Assignment_2 Syntax analysis got 100
-- Assignment_3 Code generation got 93
+- Assignment_1 Lexical analysis got 100/100
+- Assignment_2 Syntax analysis got 100/100
+- Assignment_3 Code generation got 93/100
